@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6379813085:AAGnV2PayXJrkulNet2-UF70nI1JjLLX_UU")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6693351766:AAGf7r5Is4V3Q_pbOg2p73Vs7m-Fk6q9pqc")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "25354498"))
@@ -19,25 +19,25 @@ APP_ID = int(os.environ.get("APP_ID", "25354498"))
 API_HASH = os.environ.get("API_HASH", "1cdcf1a33fc5108fa3ca151480eece50")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001963688423"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001941605552"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1969177696"))
 
 #Port
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8081")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://gs0478717:X3R9cW7hVv9YjDyS@cluster0.2utnbxv.mongodb.net/")
 DB_NAME = os.environ.get("DATABASE_NAME", "FILESBOT")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001882327590"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001257359849"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "👋 Hello {first}! Welcome to the Anime Bot! \n\n🌟I'm here to help you watch any anime you desire. Join our main channel @iAnimeHub for more! 📺🌸.")
+START_MSG = os.environ.get("START_MESSAGE", "👋 Hello {first}! Welcome to PrimeMods Files Bot! \n\n🌟Join our main channel @PrimeModsApps for more! 📺🌸.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
