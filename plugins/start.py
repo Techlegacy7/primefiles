@@ -88,10 +88,13 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Channel 1", url='https://t.me/ianimehub'),
-                    InlineKeyboardButton("Join Channel 2", url='https://t.me/imoviesrobot_channel'),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("Join 1", url='https://t.me/PrimeModsApps'),
+                    InlineKeyboardButton("Join 2", url='https://t.me/PrimeModsGames')
                 ]
+                [
+                    InlineKeyboardButton("More 🤖", url='https://t.me/BestBotsTG')
+                ]
+               
             ]
         )
         await message.reply_text(
