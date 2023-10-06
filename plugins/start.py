@@ -90,7 +90,7 @@ async def start_command(client: Client, message: Message):
                 [
                     InlineKeyboardButton("Join 1", url='https://t.me/PrimeModsApps'),
                     InlineKeyboardButton("Join 2", url='https://t.me/PrimeModsGames')
-                ]
+                ],
                 [
                     InlineKeyboardButton("More 🤖", url='https://t.me/BestBotsTG')
                 ]
