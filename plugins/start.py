@@ -88,8 +88,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join 1", url='https://t.me/PrimeModsApps'),
-                    InlineKeyboardButton("Join 2", url='https://t.me/PrimeModsGames')
+                    InlineKeyboardButton("Join 1", url='https://t.me/Hackinsider'),
+                    InlineKeyboardButton("Join 2", url='https://t.me/TechSlayer')
                 ],
                 [
                     InlineKeyboardButton("More 🤖", url='https://t.me/BestBotsTG')
